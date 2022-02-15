@@ -20,42 +20,41 @@ PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 PRODUCT_MAKEFILES += \
-	$(LOCAL_DIR)/xtended_f500_usu.mk \
-	$(LOCAL_DIR)/xtended_h810_usu.mk \
-	$(LOCAL_DIR)/xtended_h811.mk \
-	$(LOCAL_DIR)/xtended_h812_usu.mk \
-	$(LOCAL_DIR)/xtended_h815.mk \
-	$(LOCAL_DIR)/xtended_h815_usu.mk \
-	$(LOCAL_DIR)/xtended_ls991_usu.mk \
-	$(LOCAL_DIR)/xtended_us991_usu.mk \
-	$(LOCAL_DIR)/xtended_vs986_usu.mk
+	$(LOCAL_DIR)/aicp_f500_usu.mk \
+	$(LOCAL_DIR)/aicp_h810_usu.mk \
+	$(LOCAL_DIR)/aicp_h811.mk \
+	$(LOCAL_DIR)/aicp_h812_usu.mk \
+	$(LOCAL_DIR)/aicp_h815.mk \
+	$(LOCAL_DIR)/aicp_h815_usu.mk \
+	$(LOCAL_DIR)/aicp_ls991_usu.mk \
+	$(LOCAL_DIR)/aicp_us991_usu.mk \
+	$(LOCAL_DIR)/aicp_vs986_usu.mk
 
 COMMON_LUNCH_CHOICES := \
-	xtended_f500_usu-userdebug \
-	xtended_f500_usu-user \
-	xtended_f500_usu-eng \
-	xtended_h810_usu-userdebug \
-	xtended_h810_usu-user \
-	xtended_h810_usu-eng \
-	xtended_h811-userdebug \
-	xtended_h811-user \
-	xtended_h811-eng \
-	xtended_h812_usu-userdebug \
-	xtended_h812_usu-user \
-	xtended_h812_usu-eng \
-	xtended_h815-userdebug \
-	xtended_h815-user \
-	xtended_h815-eng \
-	xtended_h815_usu-userdebug \
-	xtended_h815_usu-user \
-	xtended_h815_usu-eng \
-	xtended_ls991_usu-userdebug \
-	xtended_ls991_usu-user \
-	xtended_ls991_usu-eng \
-	xtended_us991_usu-userdebug \
-	xtended_us991_usu-user \
-	xtended_us991_usu-eng \
-	xtended_vs986_usu-userdebug \
-	xtended_vs986_usu-user \
-	xtended_vs986_usu-eng
-
+	aicp_f500_usu-userdebug \
+	aicp_f500_usu-user \
+	aicp_f500_usu-eng \
+	aicp_h810_usu-userdebug \
+	aicp_h810_usu-user \
+	aicp_h810_usu-eng \
+	aicp_h811-userdebug \
+	aicp_h811-user \
+	aicp_h811-eng \
+	aicp_h812_usu-userdebug \
+	aicp_h812_usu-user \
+	aicp_h812_usu-eng \
+	aicp_h815-userdebug \
+	aicp_h815-user \
+	aicp_h815-eng \
+	aicp_h815_usu-userdebug \
+	aicp_h815_usu-user \
+	aicp_h815_usu-eng \
+	aicp_ls991_usu-userdebug \
+	aicp_ls991_usu-user \
+	aicp_ls991_usu-eng \
+	aicp_us991_usu-userdebug \
+	aicp_us991_usu-user \
+	aicp_us991_usu-eng \
+	aicp_vs986_usu-userdebug \
+	aicp_vs986_usu-user \
+	aicp_vs986_usu-eng

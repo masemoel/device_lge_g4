@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-DEBUG_ME += xtended.mk
+DEBUG_ME += aicp.mk
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)                                                        
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)                                                
@@ -28,6 +28,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
